@@ -60,9 +60,13 @@ Functions that transform data between different types:
 These functions are used to verify character types:
 
   -```ft_isalpha``` : Checks if the character is alphabetic.
+  
   -```ft_isdigit``` : Checks if the character is numeric.
+  
   -```ft_isalnum``` : Checks if the character is alphanumeric.
+  
   -```ft_isascii``` : Checks if the character is an ASCII character.
+  
   -```ft_isprint``` : Checks if the character is printable.
 
 ### 5. Additional Functions ✨
@@ -70,13 +74,21 @@ These functions are used to verify character types:
 These supplementary functions complement the basic library:
 
   -```ft_substr``` : Creates a substring from a given string.
+  
   -```ft_strjoin``` : Joins two strings into a new string.
+  
   -```ft_strtrim``` : Removes whitespace characters at the beginning and end of a string.
+  
   -```ft_split``` : Splits a string into substrings using a delimiter.
+  
   -```ft_strmapi``` : Applies a function to each character of a string, generating a new one.
+  
   -```ft_putchar_fd``` : Writes a character to a file descriptor.
+  
   -```ft_putstr_fd``` : Writes a string to a file descriptor.
+  
   -```ft_putendl_fd``` : Writes a string followed by a newline to a file descriptor.
+  
   -```ft_putnbr_fd``` : Writes a number to a file descriptor.
 
 ## ⚙️ Compilation
