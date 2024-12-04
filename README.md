@@ -1,100 +1,87 @@
 # 📚 Libft 
 
-**Libft** mi primer proyecto de 42madrid.
+**Libft** my first 42madrid project.
 
-## ✨ Resumen del proyecto
+## ✨ Project summary
 
-Este proyecto consiste en programar una librería en C.
-Tu librería tendrá un montón de funciones de propósito general en las que se apoyarán
-tus programas.
+This project consists of programming a library in C.
+Your library will have a bunch of general purpose functions that your programs will rely on.
 
 ## 📖 Descripción de funciones
 
-### 1. Funciones de Manipulación de Cadenas 📏
+### 1. String functions 📏
 
-Estas funciones son esenciales para manipular cadenas de caracteres y se basan en las funciones estándar de ```<string.h>```:
+These functions are essential for manipulating character strings and are based on the standard functions of the ```<string.h>```:
 
-  -```ft_strlen```: Calcula la longitud de una cadena.
+  -```ft_strlen```: Length of a string.
   
-  -```ft_strcpy, ft_strncpy```: Copia una cadena en otra.
+  -```ft_strcpy, ft_strncpy```: Copies one string into another.
     
-  -```ft_strdup```: Duplica una cadena en un nuevo bloque de memoria.
+  -```ft_strdup```: Duplicates a string in a new memory block.
      
-  -```ft_strcat, ft_strncat```: Concatena cadenas.
+  -```ft_strcat, ft_strncat```: Concatenates strings.
   
-  -```ft_strchr, ft_strrchr```: Localiza caracteres dentro de una cadena.
+  -```ft_strchr, ft_strrchr```: Locate characters into a string.
   
-  -```ft_strcmp, ft_strncmp```: Compara cadenas de caracteres.
+  -```ft_strcmp, ft_strncmp```: Compares strings.
   
-  -```ft_strstr, ft_strnstr```: Encuentra subcadenas dentro de una cadena.
+  -```ft_strstr, ft_strnstr```: Find substrings inside a string.
 
-###  2. Funciones de Manipulación de Memoria 💾
+###  2. Memory Handling Functions 💾
 
-Estas funciones son útiles para gestionar la memoria manualmente y se basan en funciones de ```<stdlib.h>```:
+These functions are useful for managing memory manually and are based on functions of ```<stdlib.h>```:
 
-  -```ft_memset```: Rellena un bloque de memoria con un valor específico.
+  -```ft_memset```: Fills a memory block with a specific value.
   
-  -```ft_bzero```: Llena con ceros un bloque de memoria.
+  -```ft_bzero```: Fills a memory block with zeros.
   
-  -```ft_memcpy```: Copia memoria de una ubicación a otra.
+  -```ft_memcpy```: Copy memory from 1 location to another.
   
-  -```ft_memmove```: Mueve un bloque de memoria. (Tiene en cuenta el overlapping)
+  -```ft_memmove```: Moves 1 block of memory (takes overlapping in consideration).
   
-  -```ft_memchr```: Busca un byte en un bloque de memoria.
+  -```ft_memchr```: Searches a byte in a block of memory.
 
-  -```ft_memcmp```: Compara dos bloques de memoria.
+  -```ft_memcmp```: Compares two memory blocks.
   
-  -```ft_calloc```: Reserva y limpia un bloque de memoria.
+  -```ft_calloc```: Reserves and clears a memory block.
   
-### 3. Funciones de Conversión 🔄
+### 3. Converter Functions 🔄
 
-Funciones que transforman datos entre distintos tipos:
+Functions that transform data between different types:
 
-  -```ft_atoi```: Convierte una cadena en un número entero.
+  -```ft_atoi```: Converts a string to an integer.
   
-  -```ft_itoa```: Convierte un número entero en una cadena.
+  -```ft_itoa```: Converts an integer to a string.
   
-  -```ft_tolower, ft_toupper```: Convierte caracteres de mayúsculas a minúsculas y viceversa.
+  -```ft_tolower, ft_toupper```: Converts uppercase characters to lowercase and vice versa.
 
-### 4. Funciones de Verificación de Caracteres 🔍
+### 4. Character Verification Functions 🔍
 
-Estas funciones son utilizadas para verificar tipos de caracteres:
+These functions are used to verify character types:
 
-  -```ft_isalpha```: Verifica si el carácter es alfabético.
-  
-  -```ft_isdigit```: Verifica si el carácter es numérico.
-  
-  -```ft_isalnum```: Verifica si el carácter es alfanumérico.
-  
-  -```ft_isascii```: Verifica si el carácter es ASCII.
-  
-  -```ft_isprint```: Verifica si el carácter es imprimible.
+  -```ft_isalpha```: Checks if the character is alphabetic.
+  -```ft_isdigit```: Checks if the character is numeric.
+  -```ft_isalnum```: Checks if the character is alphanumeric.
+  -```ft_isascii```: Checks if the character is an ASCII character.
+  -```ft_isprint```: Checks if the character is printable.
 
-### 5. Funciones Adicionales ✨
+### 5. Additional Functions ✨
 
-Estas funciones adicionales complementan la biblioteca básica:
+These supplementary functions complement the basic library:
 
-  -```ft_substr```: Crea una subcadena a partir de una cadena dada.
-  
-  -```ft_strjoin```: Une dos cadenas en una nueva cadena.
-  
-  -```ft_strtrim```: Elimina caracteres en blanco al inicio y final de una cadena.
-  
-  -```ft_split```: Divide una cadena en subcadenas utilizando un delimitador.
-  
-  -```ft_strmapi```: Aplica una función a cada carácter de una cadena, generando una nueva.
-  
-  -```ft_putchar_fd```: Escribe un carácter en un descriptor de archivo.
-  
-  -```ft_putstr_fd```: Escribe una cadena en un descriptor de archivo.
-  
-  -```ft_putendl_fd```: Escribe una cadena seguida de un salto de línea en un descriptor de archivo.
-  
-  -```ft_putnbr_fd```: Escribe un número en un descriptor de archivo.
+  -```ft_substr```: Creates a substring from a given string.
+  -```ft_strjoin```: Joins two strings into a new string.
+  -```ft_strtrim```: Removes whitespace characters at the beginning and end of a string.
+  -```ft_split```: Splits a string into substrings using a delimiter.
+  -```ft_strmapi```: Applies a function to each character of a string, generating a new one.
+  -```ft_putchar_fd```: Writes a character to a file descriptor.
+  -```ft_putstr_fd```: Writes a string to a file descriptor.
+  -```ft_putendl_fd```: Writes a string followed by a newline to a file descriptor.
+  -```ft_putnbr_fd```: Writes a number to a file descriptor.
 
-## ⚙️ Compilación
+## ⚙️ Compilation
 
-Para compilar la biblioteca, clona este repositorio y ejecuta el comando:
+To compile the library, clone this repository and execute the command:
 
 ```C
 make
